@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/tvSelectTemplateTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select a Template"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/btnMeetingTemplate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Meeting Notes"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/btnTodoListTemplate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="To-Do List" />
+
+</LinearLayout>
